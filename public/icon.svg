@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D2E0B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FDB931;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg_grad)"/>
+  
+  <!-- Stylized Musical Note (Eighth Note) -->
+  <g transform="translate(140, 80) scale(1.2)">
+    <path d="M160 0 L160 220 C160 253 133 280 100 280 C67 280 40 253 40 220 C40 187 67 160 100 160 L100 100 L200 100 L200 0 L160 0 Z" fill="url(#gold_grad)" opacity="0.95"/>
+    <!-- Flag of the note -->
+    <path d="M160 0 L200 0 L200 60 C200 60 180 80 160 80 L160 0 Z" fill="url(#gold_grad)" opacity="0.95"/>
+  </g>
+  
+  <!-- "Glory" in Chinese -->
+  <text x="256" y="470" text-anchor="middle" fill="#FFD700" font-family="serif" font-weight="bold" font-size="44">荣耀诗歌</text>
+</svg>
